@@ -11,14 +11,35 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "invoice_number": {
+      "type": "string"
+    },
+    "customer_name": {
+      "type": "string"
+    },
+    "customer_email": {
+      "type": "string"
+    },
+    "customer_phone": {
+      "type": "string"
+    },
     "date": {
       "type": "datetime"
+    },
+    "subtotal": {
+      "type": "biginteger"
+    },
+    "tax_amount": {
+      "type": "biginteger"
+    },
+    "discount_amount": {
+      "type": "biginteger"
     },
     "total": {
       "type": "biginteger"
     },
-    "customer_name": {
-      "type": "string"
+    "notes": {
+      "type": "text"
     },
     "products": {
       "type": "component",
